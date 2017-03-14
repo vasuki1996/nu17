@@ -118,6 +118,12 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
+  .state('aBOUT', {
+    url: '/page7',
+    templateUrl: 'templates/aBOUT.html',
+    controller: 'aBOUTCtrl'
+  })
+
 $urlRouterProvider.otherwise('/page1/page2')
 
   

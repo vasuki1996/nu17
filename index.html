@@ -80,7 +80,16 @@
       <ion-header-bar class="bar-stable">
         <div class="title">Menu</div>
       </ion-header-bar>
-      <ion-content ng-controller="menuCtrl" padding="false" class="side-menu-left has-header "></ion-content>
+      <ion-content ng-controller="menuCtrl" padding="false" class="side-menu-left has-header ">
+        <a ui-sref="tabsController.home" menu-close="" id="menu-button11" class="button button-light  button-block" data-componentid="button11">Home</a>
+        <a ui-sref="tabsController.eventsHome_tab2" menu-close="" id="menu-button12" class="button button-light  button-block" data-componentid="button12">Events</a>
+        <a ui-sref="aBOUT" menu-close="" id="menu-button13" class="button button-light  button-block" data-componentid="button13">About</a>
+        <a ui-sref="tabsController.register_tab2" menu-close="" id="menu-button14" class="button button-positive  button-block" data-componentid="button14">Register</a>
+        <div id="menu-container1" class="creator-container" data-componentid="container1"></div>
+        <div id="menu-container2" class="creator-container" data-componentid="container2"></div>
+        <div id="menu-container3" class="creator-container" data-componentid="container3"></div>
+        <div id="menu-container4" class="creator-container" data-componentid="container4"></div>
+      </ion-content>
     </ion-side-menu>
   </ion-side-menus>
 </div>
